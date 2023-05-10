@@ -1,0 +1,53 @@
+.header{
+    width: 100%;
+    height: 70px;
+}
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.logo h1{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0;
+}
+
+.menu .nav__item{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav__login button{
+    outline: none;
+    padding: 10px 45px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 8px;
+    border: none;
+    margin-right: 15px;
+    border-radius: 5px;
+    background: #FF7059;
+    border: 2px solid #23272a;
+    color: #23272a;
+    font-weight: 700;
+}
+
+

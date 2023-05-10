@@ -1,0 +1,137 @@
+/* topbar */
+
+.dashboard{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.topbar__data{
+    display: flex;
+}
+
+.data{
+    padding-right: 850px;
+}
+
+.data p{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(94, 92, 92);
+}
+
+.topbar__data h2{
+    font-weight: 600;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile p{
+    font-weight: 600;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+
+}
+
+/* boxs data */
+
+.balance__boxs{
+    display: flex;
+    padding-top: 30px;
+}
+
+.balance__boxs .balance{    
+    width: 250px;
+    height: 160px;
+    background: #FF7059;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.balance p{
+    color: #fff;
+    font-weight: 500;
+}
+
+.balance__boxs .balance .balabce-text{
+    font-size: 14px;
+}
+
+.balance-num{
+    font-size: 18px;
+}
+.balance__boxs .balance i{
+    font-size: 18px;
+    color: #fff;
+    padding-right: 5px;
+}
+
+.money {
+    display: flex;
+}
+
+.this__week{
+    width: 250px;
+    height: 160px;
+    background: #e0eae9;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #000000;
+    font-weight: 500;
+    margin-right: 20px;
+
+}
+
+.week-text{
+    font-size: 14px;
+
+}
+
+.week-num{
+    display: flex;
+}
+.week-num i{
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.This__month{
+    width: 250px;
+    height: 160px;
+    background: #fbeeea;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #000000;
+    font-weight: 500;
+    margin-right: 20px;
+
+}
+
+.last__month{
+    width: 250px;
+    height: 160px;
+    background: #23272a;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #fafafa;
+    font-weight: 500;
+
+}
+
+.calender{
+    background: #fafafa;
+    width: 800px;
+    height: 300px;
+}

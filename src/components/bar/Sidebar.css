@@ -1,0 +1,86 @@
+
+.sidebar{
+    height: 100vh;
+    width: 230px;
+    background: #252525;
+    transition: 0.5s;
+}
+
+.active{
+    widows: 80px;
+    text-indent: -9999;
+}
+
+.side__name{
+    color: aliceblue;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+.side__name p{
+    color: rgb(156, 154, 154);
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.side__menu{
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+.side__menu li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+
+.side__menu .this{
+    color: #FF7059 !important;
+}
+
+.side__menu li a::after{
+    position: absolute;
+    content: '';
+    top:-50%;
+    left: -42px;
+    height: 0px;
+    width: 2px;
+    background-color: #FF7059;
+    transition:0.2s;
+}
+
+.side__menu li a:hover{
+    color: #FF7059;
+}
+.side__menu li a:hover::after{
+    height: 40px;
+
+}
+
+.side__menu i{
+    padding-right: 7px;
+}
+
+.side__menu li{
+    padding-bottom: 20px;
+}
+
+.hide__pannel {
+    padding-left: 30px;
+}
+.hide__pannel button{
+    position: fixed;
+    bottom: 20px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.hide__pannel i{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
